@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="mavenproject1-ear-1.0-SNAPSHOT">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/ear-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/application" tag="defaultRootSource"/>
+        <dependent-module archiveName="mavenproject1-ejb-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/mavenproject1-ejb/mavenproject1-ejb">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="ApplicationCLient-1.0-SNAPSHOT.jar" deploy-path="/" handle="module:/resource/ApplicationCLient/ApplicationCLient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
